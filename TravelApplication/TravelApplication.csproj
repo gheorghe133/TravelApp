@@ -151,14 +151,6 @@
     <Content Include="Assets\images\logo.png" />
     <Content Include="Assets\images\most-popular-bg.jpg" />
     <Content Include="Assets\images\nav.jpg" />
-    <Content Include="Assets\images\packages\p1.jpg" />
-    <Content Include="Assets\images\packages\p2.jpg" />
-    <Content Include="Assets\images\packages\p3.jpg" />
-    <Content Include="Assets\images\packages\p4.jpg" />
-    <Content Include="Assets\images\packages\p5.jpg" />
-    <Content Include="Assets\images\packages\p6.jpg" />
-    <Content Include="Assets\images\packages\p7.jpg" />
-    <Content Include="Assets\images\packages\p8.jpg" />
     <Content Include="Assets\images\slider\slid_1.jpg" />
     <Content Include="Assets\images\slider\slid_2.jpg" />
     <Content Include="Assets\images\team\team-1.jpg" />
