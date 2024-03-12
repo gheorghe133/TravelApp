@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelApplication", "TravelApplication\TravelApplication.csproj", "{A3BCFA10-FABD-4B7B-BD4E-775230C1E8A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelApplication.Web", "TravelApplication\TravelApplication.Web.csproj", "{A3BCFA10-FABD-4B7B-BD4E-775230C1E8A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelApplication.BusinessLogic", "TravelApplicationBusinessLogic\TravelApplication.BusinessLogic.csproj", "{AC905484-A6C1-4E7D-AF9E-492C63171BC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelApplication.Domain", "TravelApplicationDomain\TravelApplication.Domain.csproj", "{643D6039-2D7A-4463-8177-3C168BBF25E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelApplication.Halper", "TravelApplicationHalper\TravelApplication.Halper.csproj", "{00507794-CBF2-464D-B60C-E20D24354D99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{A3BCFA10-FABD-4B7B-BD4E-775230C1E8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3BCFA10-FABD-4B7B-BD4E-775230C1E8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3BCFA10-FABD-4B7B-BD4E-775230C1E8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC905484-A6C1-4E7D-AF9E-492C63171BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC905484-A6C1-4E7D-AF9E-492C63171BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC905484-A6C1-4E7D-AF9E-492C63171BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC905484-A6C1-4E7D-AF9E-492C63171BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643D6039-2D7A-4463-8177-3C168BBF25E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643D6039-2D7A-4463-8177-3C168BBF25E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643D6039-2D7A-4463-8177-3C168BBF25E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643D6039-2D7A-4463-8177-3C168BBF25E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00507794-CBF2-464D-B60C-E20D24354D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00507794-CBF2-464D-B60C-E20D24354D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00507794-CBF2-464D-B60C-E20D24354D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00507794-CBF2-464D-B60C-E20D24354D99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

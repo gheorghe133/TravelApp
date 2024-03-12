@@ -119,9 +119,11 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginControllers.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Modelss\user\userLogin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -267,6 +269,16 @@
     <Content Include="Scripts\bootstrap.bundle.js.map" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TravelApplicationBusinessLogic\TravelApplication.BusinessLogic.csproj">
+      <Project>{ac905484-a6c1-4e7d-af9e-492c63171bc4}</Project>
+      <Name>TravelApplication.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TravelApplicationDomain\TravelApplication.Domain.csproj">
+      <Project>{643d6039-2d7a-4463-8177-3c168bbf25e1}</Project>
+      <Name>TravelApplication.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
